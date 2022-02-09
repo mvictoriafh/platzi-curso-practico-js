@@ -1,0 +1,119 @@
+@media (min-width:768px){
+.contenedor-figuras{
+    background-color: #EB769B;
+ display:grid;
+ grid-template-columns: 1fr 1fr;
+ grid-template-rows: 1fr 1fr;
+ gap: 1rem;
+}
+}
+
+.triangulo, .circulo, .cuadrado, .trianguloIsosceles{
+    text-align: center;
+    background-color:#ffa8c4 ;
+    margin: 2;
+    padding: 2;
+}
+
+body{
+    background-color: #EB769B;
+    font-family: 'Fredoka One', cursive;
+}
+/* 
+@media (min-width: 768px) {
+    .figuras-3{
+        display:grid;
+        grid-template-columns: repeat(3,1fr);
+        column-gap: 1rem;
+    }
+} */
+
+figure,img{
+    max-width: 75%;
+    text-align: center;
+    border: 2px;
+}
+img{
+    border-radius: 15px;
+    box-shadow: black;
+}
+
+h1{
+    font-family: 'Permanent Marker', cursive;
+    font-size: 50px;
+    text-align: center;
+}
+h2{
+    font-family: 'Permanent Marker', cursive;
+    font-size: 30px;
+    text-align: center; 
+}
+header{
+    text-align: center;
+}
+
+.form-cuadrado{
+    text-align: center;
+    
+}
+.label{
+    /* background-color: red; */
+    text-align: center;
+}
+.input{
+    text-align: center;
+    width: 20px;
+    height: 20px;
+}
+.input-data{
+    height: 2rem;
+}
+.units {
+    /* background-color: blue; */
+}
+
+/* //Botones */
+
+.botones{
+background-color: #9E2E68;
+border-color: white;
+text-decoration: none;
+text-transform: uppercase;
+font-weight: bold;
+font-weight: none;
+padding:1em;
+margin:1em;
+text-align: center;
+}
+
+.botones:hover{
+    cursor:pointer;
+}
+
+.izq-der{
+   display:grid;
+   grid-template-columns: 1fr 1fr;
+}
+
+.form-cuadrado{
+    text-align: center;
+}
+
+.circulo, .circulo-text{
+    text-align: center;
+}
+
+.trianguloIsosceles{
+    text-align: center;
+}
+.imagenes{
+    text-align: center;
+}
+.cuadrado1, .triangulo1, .circulo1, .triangulo2 {
+    transform: scale(0.9);
+    transition: all 0.4s ease;
+}
+
+.cuadrado1:hover, .triangulo1:hover, .circulo1:hover, .triangulo2:hover {
+    transform: scale(1);
+}
