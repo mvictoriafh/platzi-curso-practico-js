@@ -1,0 +1,96 @@
+body{
+    background-color: rgb(199, 16, 16);
+}
+
+.contenedor{
+    max-width: 120rem;
+    width:90%;
+    margin:0 auto;
+}
+.principal{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 1rem;
+
+}
+.izquierda{
+   
+}
+.imagenb{
+    text-align: center;
+    padding-top: 1em;
+}
+.imagenb:hover{
+    transform: scale(1.1);}
+
+.derecha{
+    text-align: center;
+    padding:6em 2em;
+    background-color: rgb(216, 25, 25);
+}
+.input-text{
+    text-align: center;
+    width:80%;
+    border:none;
+    padding:1rem;
+    border-radius: 5rem;
+    border: 1px solid rgb(5, 5, 5);
+    margin-left: 1.5em;
+}
+/* label {
+    font-family: 'Mochiy Pop One', sans-serif;
+    text-align: center;
+} */
+
+.campo-input{
+    text-align: center;
+    font-size: 20px;
+    width:80%;
+    padding:1rem;
+    font-family: 'Mochiy Pop One', sans-serif;
+    text-align: center;
+    margin-left: 1.5em;
+}
+
+
+.boton{
+    width:90%;
+    text-decoration: none;
+    background-color:rgb(251, 231, 43);
+    padding: 1.5em;
+    margin: 1em;
+    border-radius: 5rem;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+    margin-right: 3em;
+    font-size: 1.2em;
+    font-family: 'Permanent Marker', cursive;
+}
+.boton:hover{
+    cursor:pointer;
+    transform: scale(1.1);
+}
+/* .boton .enviar{
+    /* width:100%;
+} */ 
+
+h1{
+    font-family: 'Fredoka One', cursive;
+font-family: 'Permanent Marker', cursive;
+text-align: center;
+color: #ffff;
+font-size: 6em;
+}
+
+h2{
+    font-family: 'Fredoka One', cursive;
+    text-align: center;
+}
+
+
+
+footer{
+    text-align: center;
+    clear:both;
+}
